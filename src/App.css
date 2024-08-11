@@ -1,0 +1,130 @@
+.outputcontainer{
+  /* height: 95vh;
+  width: 40vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.languagesbutton{
+  height: 25px;
+  width: 120px;
+  margin-left: 10px;
+}
+.themebutton:hover,
+.runbutton:hover,
+.savebutton:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+.themebutton,.runbutton,.savebutton{
+  height: fit-content;
+  width: fit-content;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.runbutton{
+  height: 25px;
+  width: 120px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.subcontainer{
+  height: max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.workspacename{
+  height: max-content;
+  width: max-content;
+  margin: 0;
+}
+.textarea {
+  height: 95vh;
+  width: 40vw;
+  margin-top: 5px;
+
+  /* border-radius: 10px; */
+  background-color: white;
+  border: 1px solid white;
+  
+  padding: 10px;
+  color: black;
+  resize: none;
+}
+.editorcontainer{
+  /* width: 100vw;
+  height: 100vh; */
+  padding: 0px;
+  margin: 0px;
+  
+  display: flex;
+  justify-content:space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+
+.createworkspace{
+  height: 250px;
+  padding: 5px;
+  width: 500px;
+  border: 2px solid black ;
+  border-radius: 10px;
+}
+#name{
+  height: 30px;
+  background-color: white;
+  border: 2px solid black ;
+  border-radius: 10px;
+  width: 200px;
+  margin: 2px;
+}
+.radiogroup{
+  height: max-content;
+  width: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  flex-direction: column;
+}
+.workspaces{
+  max-height: max-content;
+  width: 95vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.workspacebox{
+  height: 170px;
+  width: 370px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.buttonscontainer{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

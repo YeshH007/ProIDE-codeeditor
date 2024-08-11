@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&display=swap');
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --border-color: #ffffff;
+  --transition-speed: 0.3s;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+
+  overflow-x: visible;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto auto;
+  padding: 10px ;
+  
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+:root{
+  scrollbar-color: black;
+}
+.createworkspace {
+  height: max-content;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border-color);
+  overflow: visible;
+}
+
+.createworkspace h3 {
+  margin-top: 0;
+}
+
+.createworkspace form {
+  display: flex;
+  flex-direction: column;
+}
+
+.createworkspace label {
+  margin-bottom: 0.5rem;
+}
+
+.createworkspace input[type="text"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  color: var(black);
+}
+
+.radioGroup {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.radioGroup div {
+  display: flex;
+  align-items: center;
+}
+
+.radioGroup label {
+  margin-right: 0.5rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color var(--transition-speed), color var(--transition-speed), transform var(--transition-speed);
+}
+
+button:hover {
+  background-color: var(--border-color);
+  color: var(--secondary-color);
+  transform: scale(1.1);
+}
+
+.workspaces {
+  height: max-content;
+  /* width: max-content; */
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.workspacebox {
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color); /* Ensures border on all sides */
+}
+
+.workspacebox h1 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.workspacebox h3 {
+  font-size: 1rem;
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 10px;
+  border: 3px solid var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333333 var(--secondary-color);
+}
