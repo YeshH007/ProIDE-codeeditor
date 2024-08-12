@@ -5,6 +5,9 @@ const app=express()
 const router=express.Router()
 
 router
+.get("/",(req,res)=>{
+  res.send("server connected");
+}) 
 .post('/api/createworkspace',createworkspace)
 .get('/api/getworkspaces',getworkspaces)
 .put('/api/updateworkspace',updateworkspacecode)
