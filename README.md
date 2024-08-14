@@ -1,31 +1,18 @@
-# React + TypeScript + Vite
-Live link of the complete full stack project-https://main--proide.netlify.app/ 
-Frontend code link -https://github.com/YeshH007/ProIDE-frontend
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+SCREENSHOTS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Screenshot (36)](https://github.com/user-attachments/assets/64c7e5f9-9cf8-4834-a19e-2ecb5c9a8d21)
 
-- Configure the top-level `parserOptions` property like this:
+![Screenshot (40)](https://github.com/user-attachments/assets/68427b0b-c986-4ed9-953e-759ac35daf57)
+![Screenshot (39)](https://github.com/user-attachments/assets/c62e1b72-7bd5-40e7-99eb-1d79e271e467)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Screenshot (38)](https://github.com/user-attachments/assets/d46861c7-0a06-4c47-92a2-3603f8bfad68)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
+
+
